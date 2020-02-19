@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Bootstrap 4 Layout</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+        <!-- The container class creates a space to contain everything inside of itself -->
+        <main class="container">
+            <!-- The navbar class creates a bar that can hold navigational items, text, and more -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="/">Austin's Website</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                Shop
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Section 1</a>
+                                <a class="dropdown-item" href="#">Section 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">All Sections</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- The jumbotron class creates a large hero that can contain headers, text, and buttons -->
+            <header class="jumbotron">
+                <h1 class="display-4">This is Austin's Website.</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus ultrices nulla, eget tristique mi vehicula pharetra. Sed porta est nulla, imperdiet condimentum lorem semper non.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </header>
+
+            <!-- The row class creates a grid system that can contain columns for organizing content -->
+            <section class="row">
+                <div class="col-md">
+                    <!-- The mb-4 class adds margin on the bottom of the element -->
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Phasellus eget pellentesque diam.</p>
+                            <a href="#" class="card-link">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Phasellus eget pellentesque diam.</p>
+                            <a href="#" class="card-link">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Phasellus eget pellentesque diam.</p>
+                            <a href="#" class="card-link">Link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="row mt-sm-4 mt-md-0">
+                    <div class="col-sm-12 col-md-8">
+                        <h3>Title</h3>
+                        <p class="lead">Curabitur sodales felis ante, ut vestibulum mi faucibus id.</p>
+                        <p>Nam tincidunt libero turpis, quis porttitor massa laoreet at. Nulla hendrerit massa velit, a semper metus imperdiet eu. Quisque euismod leo sed purus fermentum, in posuere nibh vulputate. Duis id viverra dolor, eu facilisis dolor. In ac elit lobortis ante ornare aliquet vitae at velit.</p>
+                        <p>Mauris magna dui, vehicula in tincidunt quis, malesuada a nulla. Sed finibus urna lectus, sit amet volutpat dui facilisis et. Suspendisse eu ex faucibus augue dapibus consequat eget eget dolor. Donec pretium vulputate tortor hendrerit posuere. Pellentesque tincidunt sem ut est rutrum malesuada. Mauris porttitor posuere est a ornare.</p>
+                    </div>
+                    <nav class="col-sm-12 col-md-4">
+                        <h3 class="mb-4">Secondary Menu</h3>
+
+                        <!-- The flex-column class creates a vertical layout of the items in its container -->
+                        <ul class="nav flex-column nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </section>
+        </main>
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>

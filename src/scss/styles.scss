@@ -1,0 +1,11 @@
+// Variable Overrides
+
+// Changes the theme colors from Bootstrap
+$theme-colors: (
+    "primary": #0c72b6
+);
+
+$body-bg: #f8f9fa;
+
+// Bootstrap Sass Files
+@import "node_modules/bootstrap/scss/bootstrap";
