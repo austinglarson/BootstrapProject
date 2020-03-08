@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Caladea&display=swap");
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -7137,3 +7138,57 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+/********************* Sass Examples *********************/
+.card {
+  padding-bottom: 1rem;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1); }
+  .card:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.15); }
+    .card:hover .card-title {
+      color: #0c72b6; }
+  .card .card-body {
+    text-decoration: none; }
+  .card .card-text {
+    color: #757a7c; }
+  .card .card-link {
+    color: #f37907;
+    text-align: center; }
+    .card .card-link:hover {
+      color: #f35207; }
+
+.card {
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  transition-duration: 0.2s;
+  transition-transition-timing-function: ease-in-out; }
+
+.jumbotron h1.display-4 {
+  font-size: 3.25rem; }
+  @media (max-width: 500px) {
+    .jumbotron h1.display-4 {
+      font-size: 2.5rem; } }
+
+h1, h2, h3 {
+  font-family: "Caladea";
+  color: #000; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.5rem; }
+
+.nav-pills li a.active {
+  height: 40px;
+  border-radius: 20px; }
+  .nav-pills li a.active:hover {
+    background-color: #0c66a1; }
+
+.jumbotron .btn {
+  height: 50px;
+  border-radius: 25px; }
